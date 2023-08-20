@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+b {
+  text-decoration: underline;
+  color: red;
+}
+#someid {
+  color: #789;
+}
+p {
+  color: chocolate;
+}
+.description {
+  color: green;
+}
+.description2 {
+  text-decoration: underline;
+}
+.description3 {
+  color: #7c1147;
+}
+a[href*="youtu"] {
+  color: #dc3939;
+}
+a[href$="html"] {
+  color: #1d1db5;
+}
+.header {
+  border-bottom: 1px solid;
+}
+.header.header4 {
+  border-bottom-style: outset;
+}
+p + h3 {
+  color: rgb(19, 19, 80);
+}
