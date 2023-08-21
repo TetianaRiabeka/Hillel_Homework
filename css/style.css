@@ -3,3 +3,35 @@
   padding: 0;
   box-sizing: border-box;
 }
+h1 {
+  color: #0d0d5b;
+  text-align: center;
+}
+.container {
+  max-width: 1043px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  margin-top: 30px;
+}
+
+.card {
+  max-width: 325px;
+  padding: 1rem;
+  border: 1px solid;
+  margin: 10px;
+  display: inline-block;
+}
+img {
+  max-width: 100%;
+  width: 500px;
+}
+.img {
+  padding-top: 21px;
+}
+.img5 {
+  padding-top: 22px;
+}
+.img6 {
+  padding-top: 82px;
+}
