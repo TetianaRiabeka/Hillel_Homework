@@ -19,3 +19,16 @@ html {
   padding-right: 1rem;
   position: relative;
 }
+table,
+td,
+th {
+  border: 1px solid;
+}
+td,
+th {
+  padding: 0.25rem 0.5rem;
+  border-color: white;
+}
+.bg-yellow {
+  background-color: yellow;
+}
