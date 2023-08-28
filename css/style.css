@@ -4,11 +4,12 @@
   box-sizing: border-box;
 }
 html {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
+  font-family: "Pacifico";
+  font-size: 18px;
+  line-height: 1.7;
   font-weight: 400;
-  color: #353535;
+  color: #909090;
+  text-align: center;
 }
 .container {
   width: 100%;
@@ -18,4 +19,25 @@ html {
   padding-left: 1rem;
   padding-right: 1rem;
   position: relative;
+}
+h1,
+h2,
+h3 {
+  color: #303030;
+  font-weight: 700;
+}
+.card {
+  border: 0px;
+  display: inline-block;
+  width: 300px;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 30px rgba(50, 50, 100, 0.25);
+}
+.details {
+  text-align: right;
+  color: blue;
+}
+img {
+  border-radius: 0.5rem;
 }
