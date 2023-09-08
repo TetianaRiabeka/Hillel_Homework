@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework-10_registration</title>
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <div class="background-image">
+            <section>
+                <div class="container">
+                    <form>
+                        <div class="border">
+                            <input type="submit" value="Регистрация" formaction="./registration.html" class="button-1"
+                                disabled>
+                            <input type="submit" value="Вход" formaction="./index.html" class="button-2">
+                        </div>
+                    </form>
+                    <h1 class="title-form">Регистрация</h1>
+                    <form action="https://fom.in.ua/echo">
+                        <div class="login">
+                            <input type="text" class="input-1" name="E-mail" placeholder="Введите E-mail" required>
+                        </div>
+                        <div class="login password">
+                            <input type="password" class="input-1" name="password" placeholder="Пароль" required>
+                        </div>
+                        <div class="login password">
+                            <input type="password" class="input-1" name="confirm_password"
+                                placeholder="Повторить пароль" required>
+                        </div>
+                        <label for="cb1" class="label">
+                            <input class="checkbox" type="checkbox" name="Получать новости" id="cb1"
+                                value="Получать новости">
+                            <span class="checkbox_span"></span>
+                            <span class="some_text">Получать новости</span>
+                        </label>
+                        <p class="btn_1"><button class="btn" type="submit">Зарегистрироваться</button></p>
+                    </form>
+                    <p class="login-p">Уже есть аккаунт?<a class="link-2" href="./index.html">Авторизироваться</a>
+                    </p>
+                    <p class="login-p">Или войдите через</p>
+                    <div class="buttons">
+                        <form class="form-3">
+                            <button class="social_media" type="submit"
+                                formaction="https://m.facebook.com/login/?locale=ru_RU&refsrc=deprecated">
+                                <img src="./icons/Vector_1.png" alt="facebook">
+                            </button>
+                            <button class="social_media" type="submit"
+                                formaction="https://www.instagram.com/accounts/login/">
+                                <img src="./icons/Vector_3.png" alt="instagram">
+                            </button>
+                            <button class="social_media" type="submit" formaction="https://www.linkedin.com/login/ru">
+                                <img src="./icons/Vector_2.png" alt="in">
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
