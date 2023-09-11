@@ -1,3 +1,16 @@
+:root {
+  --container-width: 1110px;
+  --basic-space: 1rem;
+  --basic-background: #5c5b5b;
+  --secondary-background: rgb(57, 186, 229);
+  --text-color: #ffffff;
+  --text-size: 16px;
+  --width: 200px;
+  --padding: 10px 30px;
+  --margin-top: -50px;
+  --right: -200px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,17 +18,74 @@
 }
 html {
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
+  font-size: var(--text-size);
   line-height: 1.5;
   font-weight: 400;
-  color: #353535;
+  color: var(--text-color);
 }
 .container {
   width: 100%;
-  max-width: calc(1110px + 2rem);
+  max-width: calc(var(--container-width) + var(--basic-space) * 2);
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: var(--basic-space);
+  padding-right: var(--basic-space);
   position: relative;
+}
+
+.navigation {
+  position: relative;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navigation > ul {
+  display: flex;
+}
+
+.navigation ul li {
+  list-style: none;
+}
+
+.navigation > ul li {
+  position: relative;
+}
+
+.navigation > ul li a {
+  text-decoration: none;
+  padding: var(--padding);
+  display: block;
+  background-color: var(--basic-background);
+  color: var(--text-color);
+  border-bottom: 4px solid var(--secondary-background);
+  transition: all 0.6s ease;
+  border-top: 2px solid var(--secondary-background);
+  border-left: 1px solid var(--secondary-background);
+  border-right: 1px solid var(--secondary-background);
+}
+
+.navigation li:hover > a {
+  background-color: var(--secondary-background);
+  transition: all 0.6s ease;
+}
+
+.navigation li ul {
+  position: absolute;
+  display: none;
+}
+
+li:hover > ul {
+  display: block;
+  width: var(--width);
+}
+
+.navigation li > ul li ul {
+  right: var(--right);
+  margin-top: calc(var(--basic-space) * -3.125);
+}
+
+.products_contact::after {
+  content: "\203A";
+  float: right;
 }
