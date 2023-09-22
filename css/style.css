@@ -4,18 +4,424 @@
   box-sizing: border-box;
 }
 html {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
   line-height: 1.5;
   font-weight: 400;
-  color: #353535;
+  color: #000000;
 }
 .container {
   width: 100%;
-  max-width: calc(1110px + 2rem);
+  max-width: calc(1330px + 2rem);
   margin-left: auto;
   margin-right: auto;
   padding-left: 1rem;
   padding-right: 1rem;
   position: relative;
+}
+/*------------------------------------------------------------------------------------------------------*/
+
+.flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.justify-content-space-around {
+  justify-content: space-around;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.gap-8 {
+  gap: 8px;
+}
+
+.gap-40 {
+  gap: 40px;
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+.nav-ul {
+  font-size: 17px;
+  line-height: 1.1;
+  font-weight: 400;
+  list-style: none;
+}
+.header {
+  padding-top: 36px;
+}
+/*--------------------------------------section-1----------------------------------------------------------------*/
+.background-1-section {
+  background: url(../images/background-1-section.png) no-repeat right;
+}
+.h1-title {
+  font-family: "STSong";
+  font-size: 88px;
+  font-weight: 300;
+  line-height: 1.4;
+  padding-top: 150px;
+  margin-left: 50px;
+  margin-bottom: 43px;
+}
+
+.beauty {
+  font-size: 81px;
+  line-height: 1.5;
+}
+
+.btn {
+  display: inline-block;
+  border: 1px solid #dacec6;
+  background-color: #f1ebe7;
+  color: #68513f;
+  text-decoration: none;
+}
+
+.btn-1 {
+  padding: 12px 21px 13px 21px;
+  margin-left: 50px;
+}
+
+.btn:hover {
+  background-color: #dacec6;
+}
+
+.you {
+  font-family: "Style Script";
+  font-size: 175px;
+  font-weight: 400;
+  line-height: 0.5;
+  color: #68513f;
+  transform: rotate(5.54deg);
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 670px;
+}
+
+.btn-p {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-bottom: 205px;
+}
+
+/*---------------------------------------section-2---------------------------------------------------------------*/
+.section-2 {
+  margin-top: 255px;
+  padding-bottom: 240px;
+}
+.title-2-section {
+  font-family: "STSong";
+  font-size: 65px;
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: center;
+}
+.certified-organic {
+  font-size: 70px;
+  line-height: 1.4;
+}
+.skincare {
+  font-family: "Style Script";
+  font-weight: 400;
+  font-size: 137px;
+  line-height: 0.8;
+  color: #68513f;
+  transform: rotate(-5.08deg);
+  text-align: center;
+}
+.wrap-2-section {
+  width: 100%;
+  max-width: 649px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.p-2-section {
+  text-align: center;
+  padding-top: 19px;
+}
+.btn-2 {
+  border-radius: 73px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 47px;
+}
+.img-2-section {
+  position: absolute;
+}
+.img2-4 {
+  bottom: -36px;
+  right: 105px;
+  display: block;
+}
+.img2-5 {
+  bottom: 40px;
+  left: 100px;
+  display: block;
+}
+.img2-2 {
+  top: -237px;
+  right: 210px;
+  display: block;
+}
+.img2-3 {
+  top: 5px;
+  right: 65px;
+  display: block;
+}
+.img2-1 {
+  top: -125px;
+  left: 45px;
+  display: block;
+}
+
+/*---------------------------------------section-3---------------------------------------------------------------*/
+.img3-1 {
+  width: 100%;
+  max-width: 1340px;
+}
+.products {
+  transform: rotate(0);
+  margin-top: 90px;
+}
+.description-3 {
+  margin-top: 5px;
+}
+.wrap-3-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+}
+.card {
+  width: 100%;
+  max-width: calc(25% - 39 / 4);
+  background-color: #e7ded8;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.h3-cards {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 13px;
+}
+.img-3-section {
+  max-width: 305px;
+  width: 100%;
+}
+.h4-cards {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 1.3;
+  margin-top: 7px;
+}
+.h4-size-20px {
+  font-size: 20px;
+}
+.btn-for-cards {
+  padding: 10px 20px;
+  min-width: 305px;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: auto;
+}
+.div-prices {
+  margin: 20px 15px 26px 15px;
+}
+/*--------------------------------------section-4----------------------------------------------------------------*/
+
+.img1-4-section {
+  width: 100%;
+  max-width: 620px;
+}
+.section-4 {
+  padding-top: 120px;
+}
+.p-innovation {
+  font-family: "STSong";
+  font-size: 70px;
+  font-weight: 300;
+  line-height: 1.4;
+  margin-top: 9px;
+  margin-bottom: 25px;
+}
+.wrap-4-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrap-4-sometext {
+  width: 100%;
+  max-width: 620px;
+  text-align: center;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+.description-4 {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.8;
+}
+.btn-4 {
+  padding: 12px 21px 13px 21px;
+  margin-top: 51px;
+}
+.feature {
+  transform: rotate(0);
+  line-height: 0.8;
+}
+.wrap2-4-section {
+  width: 100%;
+  max-width: 832px;
+  text-align: center;
+  margin-top: 202px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.description-2-for-4 {
+  font-size: 28px;
+  line-height: 1.4;
+}
+.icons-for-4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 57px;
+  padding: 0 80px;
+  margin-bottom: 200px;
+}
+/*------------------------------------section-5------------------------------------------------------------------*/
+.h3-for-5 {
+  border: 1px solid;
+  text-transform: uppercase;
+  position: relative;
+  font-size: 13px;
+  color: #ffffff;
+  padding: 65px 36px;
+  font-weight: 400;
+}
+
+.wrap-for-h3-in-5sec {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 148px;
+  padding-bottom: 148px;
+}
+.images-5sec {
+  display: flex;
+  position: absolute;
+}
+
+.img1-5 {
+  width: 100%;
+  height: 448px;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}
+
+/*---------------------------------------section-6---------------------------------------------------------------*/
+.section-6 {
+  padding-top: 88px;
+  padding-bottom: 128px;
+}
+.description-6 {
+  font-family: "STSong";
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 1.3;
+}
+.btn-6 {
+  padding: 12px 21px 13px 21px;
+  border-radius: 73px;
+  text-align: center;
+  margin-top: auto;
+}
+
+.p-a-6sec {
+  width: 100%;
+  max-width: 273px;
+  flex-direction: column;
+  display: flex;
+  align-items: start;
+}
+.card-6sec {
+  gap: 28px;
+}
+.wrap-6sec {
+  margin-top: 50px;
+}
+/*--------------------------------------------footer----------------------------------------------------------*/
+.footer {
+  background-color: #e7ded8;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.list-footer {
+  list-style: none;
+}
+.footer-wrap-1 {
+  max-width: 180px;
+  width: 100%;
+}
+.a-footer {
+  color: #68513f;
+  text-decoration: none;
+}
+.description-foot {
+  margin-top: 20px;
+  margin-bottom: 58px;
+}
+.h4-footer {
+  margin-bottom: 29px;
+  font-family: "STSong";
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.6;
+}
+.h4-footer1 {
+  font-size: 27px;
+  line-height: 1.4;
+}
+
+.h4-footer2 {
+  font-size: 28px;
+  line-height: 1.4;
+}
+.list-footer > li {
+  margin-bottom: 9px;
+}
+.list-2 {
+  margin-left: 45px;
+}
+.font-size-13px {
+  font-size: 13px;
+}
+.margin-bottom-9px {
+  margin-bottom: 9px;
+}
+.margin-bottom-69px {
+  margin-bottom: 69px;
+}
+.margin-top-39px {
+  margin-top: 39px;
+}
+.width-250px {
+  max-width: 250px;
+  width: 100%;
 }
